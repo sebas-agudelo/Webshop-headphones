@@ -1,0 +1,24 @@
+@use "products";
+@use "media";
+@use "navbar";
+@use "likecart";
+@use "cart";
+@use "productditails";
+@use "startpage";
+@use "./media-quereis/media-query-products";
+@use "./media-quereis/media-query-nav";
+@use "./media-quereis/mediaQuery-like-shopping-cart";
+@use "./media-quereis/media-productditails";
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12pt;
+    font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+}
+
+
+ 
