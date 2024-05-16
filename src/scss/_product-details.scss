@@ -1,28 +1,34 @@
+@use "mixins" as m;
+
 #modal-body{
+    height:60vh;
 
 .modal-img-container{
-    width: 50%;
-    margin: 0 auto;
+    width: 90%;
+    margin: 0 auto 30px;
+
+    @include m.desktop{
+        width: 50%;
+    }
+    
 
     img{
         width: 100%;
     }
 }
 
-
 .price-and-cart-icon{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.312);
     
-    margin-top: 10px;
-
-
-  
     button{
         border-radius: 8px;
         border: .5px solid black;
         background: transparent;
         transition: border-color 350ms linear;
+        margin-bottom: 20px;
 
         i{
             padding: 15px;
@@ -33,8 +39,18 @@
             border-color: rgb(255, 152, 49);
         }
     }
-
-    
 }
 
+.central-functions-container{
+    margin-top: 20px;
+}
+
+.description-container{
+    margin-top: 30px;
+
+}
+
+h5{
+    font-weight: bold;
+}
 }

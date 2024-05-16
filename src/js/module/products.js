@@ -37,10 +37,6 @@ export function productsHtml(headphones) {
       productIconCart.classList.add("bi-cart");
       productIconCart.classList.add("cart");
       
-      
-      // const buyBtn = document.createElement("button");
-      // buyBtn.innerHTML = "Köp";
-      
       img.src = allProducts.imageUrl
       name.innerHTML = allProducts.name;
       functions.innerHTML = allProducts.functions

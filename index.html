@@ -1,105 +1,137 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Indic+Siyaq+Numbers&display=swap" rel="stylesheet">
 
-    <title>Vite App</title>
-  </head>
-  <body>
-    <header>
-      <section class="main-header">    
-        
-        <div class="company-name">
-          <h2><a href="index.html">SOUND1</a></h2>
-          
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/b4a6698685.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Indic+Siyaq+Numbers&display=swap" rel="stylesheet">
+
+  <title>Vite App</title>
+</head>
+
+<body>
+  <header>
+    <section class="main-header">
+
+      <div class="company-name">
+        <h2><a href="index.html">SOUND1</a></h2>
+
+        <div class="cart-and-like-container">
+
+          <div class="like-container">
+            <i class="bi bi-heart cart-like"></i>
+            <div class="qty-like">
+              <p class="qtylike">0</p>
+            </div>
+          </div>
+
           <div class="cart">
-            
-            <div class="like-container">
-              <i class="bi bi-heart cart-like"></i>
-              <div class="qty-like">
-                <p class="qtylike">0</p>
-              </div>
-              
-              
-              <i class="bi bi-cart cart-icon"></i>
-              <div class="qty-cart">
-                <p class="qtycart">0</p>
-              </div>
+            <i class="bi bi-cart cart-icon"></i>
+            <div class="qty-cart">
+              <p class="qtycart">0</p>
             </div>
           </div>
         </div>
-        
-        
-        <div class="nav-container">
-          <!-- <form id="search-container"> -->
-            <div class="search">
-              
-            </div>
-            <!-- </form> -->
-            
-            <div class="burgerMenu">
-              <div class="icons">
-                <i class="bi bi-list burger-icon"></i>
-                <i class="bi bi-x-lg close-icon"></i>
-              </div>
-            </div>
-            
-            <nav class="navBar">
-              <ul>
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="products.html">Produkter</a></li>
-                <li><a href="">Kontakt</a></li>
-                <li><a href="">Om oss</a></li>
-              </ul>
-            </nav>
-            
+      </div>
+
+      <div class="nav-container">
+
+        <div class="burgerMenu">
+          <div class="icons">
+            <i class="bi bi-list burger-icon"></i>
+            <i class="bi bi-x-lg close-icon"></i>
           </div>
-          
-        </section>
-        <div class="hero-img">
-          <img src="src/assets/hero-img/headphones-1868612_1280.jpg" alt="">
-        </div>    
-        
-        <div class="like-contianer">
-          
-          <div class="like-heading-close-container">
-            <h3 class="like-heading">FAVORITER</h3>
-            <i class="bi bi-x-lg like-close-icon"></i>
-          </div>
-          
-          <div class="like-products"></div>
         </div>
-        
-        <div class="shopping-cart-container">
-          
-    <div class="cart-heading-close-container">
-      <i class="bi bi-x-lg shopping-close-icon"></i>
-      <h3 class="cart-heading">VARUKORG</h3>
-      
+
+        <nav class="navBar">
+          <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="products.html">Produkter</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+            <li><a href="#about">Om oss</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+    </section>
+    <div class="hero-img">
+      <img src="src/assets/hero-img/headphones-1868612_1280.jpg" alt="">
     </div>
-  
-    <div class="shopping-products"></div>
 
-    <div class="checkoutdiv">
-      <h4 class="total-price">Summa 0</h4>
-      <button><a href="checkout.html">Till kassan</a></button>
+    <div class="like-contianer">
+
+      <div class="like-heading-close-container">
+        <h3 class="like-heading">FAVORITER</h3>
+        <i class="bi bi-x-lg like-close-icon"></i>
+      </div>
+
+      <div class="like-products"></div>
     </div>
 
-  </div>
-    </header>
+    <div class="shopping-cart-container">
 
-    <main> 
-    
-    </main>
-    <script type="module" src="/src/js/main.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+      <div class="cart-heading-close-container">
+        <i class="bi bi-x-lg shopping-close-icon"></i>
+        <h3 class="cart-heading">VARUKORG</h3>
+
+      </div>
+
+      <div class="shopping-products"></div>
+
+      <div class="checkoutdiv">
+        <h4 class="total-price">Summa 0</h4>
+        <button><a href="checkout.html">Till kassan</a></button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer>
+    <div>
+      <h5>KONTAKT</h5>
+      <ul id="contact">
+        <li><i class="fa-solid fa-mobile-screen"></i> 070-14 14 320</li>
+        <li><i class="fa-regular fa-envelope"></i> info@sound1.se</li>
+      </ul>
+    </div>
+
+    <div>
+      <h5>OM OSS</h5>
+      <p id="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nisi, aliquid eos, possimus
+        sapiente dolores quod porro nobis ut perferendis saepe aut obcaecati magni delectus dolore officiis numquam
+        similique itaque.</p>
+    </div>
+
+    <div>
+      <h5>SOCIALA MEDIER</h5>
+      <ul>
+        <li><i class="fa-brands fa-x-twitter"></i> Twitter</li>
+        <li><i class="fa-brands fa-tiktok"></i> Tik Tak</li>
+        <li><i class="fa-brands fa-facebook"></i> Facebook</li>
+        <li><i class="fa-brands fa-square-instagram"></i> Instagram</li>
+      </ul>
+    </div>
+
+  </footer>
+  <script type="module" src="/src/js/main.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -35,6 +35,7 @@ export function productDitails(datails) {
 
     //ALL ABOUT PRODUCT CENTRAL FUNCTIONS
     const modalCentralFunctionsContaner = document.createElement("div");
+    modalCentralFunctionsContaner.classList.add("central-functions-container")
 
     const modalFunctionsHeading = document.createElement("h5");
     modalFunctionsHeading.innerHTML = "CENTRALA FUNKTIONER";
@@ -54,6 +55,7 @@ export function productDitails(datails) {
 
     //ALL ABOUT PRODUCT DESCRIPTION
     const ModalDescriptionContainer = document.createElement("div");
+    ModalDescriptionContainer.classList.add("description-container")
 
     const modalDescriptonHeading =  document.createElement("h5");
     modalDescriptonHeading.innerHTML = "FULLSTÄNDIG BESKRIVNING";

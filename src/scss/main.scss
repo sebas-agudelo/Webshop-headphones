@@ -4,9 +4,12 @@
 @use "cart";
 @use "startpage";
 @use "_product-details";
+@use "footer";
+
 @use "./media-quereis/media-query-products";
 @use "./media-quereis/media-query-nav";
 @use "./media-quereis/mediaQuery-like-shopping-cart";
+@use "./media-quereis/media-query-footer";
 
 
 *{

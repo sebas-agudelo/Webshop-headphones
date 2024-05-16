@@ -104,10 +104,14 @@ const cartHtml = () => {
 
     });
     
-
     qtyInput.addEventListener("change", () => {
       const newQty = parseInt(qtyInput.value);
       Cart.quantity = newQty;
+
+      if(newQty <= 0){
+        const productIndex = shoppingCart.indexOf(Cart)
+        shoppingCart.splice(productIndex, 1);
+      }
    
       cartHtml();
       qtycart(); 
@@ -125,12 +129,12 @@ export function allCartListeners () {
 function shoppingContainer () {
     document.querySelector(".shopping-cart-container").classList.toggle("open-shopping-container");
     document.querySelector("#productContainer").classList.toggle("product-container-hidden")
-    document.querySelector(".burgerMenu").classList.toggle("remove");
+    // document.querySelector(".burgerMenu").classList.toggle("remove");
 }
 
   //Open shopping container
 function openShoppingContainer () {
-    document.querySelector(".cart-icon").addEventListener("click", () => {
+    document.querySelector(".bi-bag").addEventListener("click", () => {
 
     shoppingContainer ()
   });
