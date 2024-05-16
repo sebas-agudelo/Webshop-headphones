@@ -19,6 +19,8 @@ export function productsHtml(headphones) {
       imgContainer.setAttribute("data-bs-target", "#exampleModal")
       
       const name = document.createElement("h3");
+      name.setAttribute("data-bs-toggle", "modal")
+      name.setAttribute("data-bs-target", "#exampleModal")
       
       const functions = document.createElement("p");
       const price = document.createElement("h3");
@@ -87,9 +89,13 @@ export function productsHtml(headphones) {
         productDitails(allProducts)   
       });
 
-      imgContainer.addEventListener("click", (e) => {
+      imgContainer.addEventListener("click", () => {
         productDitails(allProducts) 
       });
+
+      name.addEventListener("click", () => {
+        productDitails(allProducts)
+      })
     })
 };
 
