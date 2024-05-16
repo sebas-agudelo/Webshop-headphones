@@ -88,13 +88,7 @@ export function productsHtml(headphones) {
       });
 
       imgContainer.addEventListener("click", (e) => {
-        productDitails(allProducts)
-        // document.querySelector(".main-header").classList.toggle("försvinna");
-        // theProductsSection.classList.toggle("blablabla");
-        
-        
-        
-     
+        productDitails(allProducts) 
       });
     })
 };

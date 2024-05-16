@@ -1,6 +1,3 @@
-import { qtycart, total } from "./cart";
-
-
 export function productDitails(datails) {
 
     const theModal = document.getElementById("modal-body")
@@ -32,13 +29,5 @@ export function productDitails(datails) {
 
     theModal.appendChild(modalImgContainer);
     theModal.appendChild(ModalPriceAndCartContainer);
-
-    // ditailsCartButton.addEventListener("click", () => {
-    //     addLikedProdToTheCart(datails)
-    //     qtycart(datails)
-    //     total (datails) 
-    //    })
-
-
 }
 
