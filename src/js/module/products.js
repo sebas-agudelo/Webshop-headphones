@@ -5,6 +5,7 @@ import { productDitails } from "./productditails.js";
 export function productsHtml(headphones) {
   
   const theProductsSection = document.getElementById("productContainer");
+  theProductsSection.innerHTML = "";
 
   headphones.forEach((allProducts) => {
   
@@ -13,6 +14,9 @@ export function productsHtml(headphones) {
   
       const img = document.createElement("img")
       const imgContainer = document.createElement("div");
+
+      imgContainer.setAttribute("data-bs-toggle", "modal")
+      imgContainer.setAttribute("data-bs-target", "#exampleModal")
       
       const name = document.createElement("h3");
       
@@ -85,8 +89,10 @@ export function productsHtml(headphones) {
 
       imgContainer.addEventListener("click", (e) => {
         productDitails(allProducts)
-        document.querySelector(".main-header").classList.toggle("försvinna");
-        theProductsSection.classList.toggle("blablabla");
+        // document.querySelector(".main-header").classList.toggle("försvinna");
+        // theProductsSection.classList.toggle("blablabla");
+        
+        
         
      
       });

@@ -1,0 +1,40 @@
+#modal-body{
+
+.modal-img-container{
+    width: 50%;
+    margin: 0 auto;
+
+    img{
+        width: 100%;
+    }
+}
+
+
+.price-and-cart-icon{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 10px;
+
+
+  
+    button{
+        border-radius: 8px;
+        border: .5px solid black;
+        background: transparent;
+        transition: border-color 350ms linear;
+
+        i{
+            padding: 15px;
+            font-size: 1.4rem;
+        }
+
+        &:hover{
+            border-color: rgb(255, 152, 49);
+        }
+    }
+
+    
+}
+
+}
