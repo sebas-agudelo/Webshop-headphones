@@ -88,10 +88,6 @@ export function productsHtml(headphones) {
       imgContainer.addEventListener("click", () => {
         productDitails(allProducts) 
       });
-
-      name.addEventListener("click", () => {
-        productDitails(allProducts)
-      })
     })
 };
 

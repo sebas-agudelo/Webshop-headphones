@@ -1,0 +1,115 @@
+@media screen and (min-width: 768px) {
+    .open-cart-container {
+        top: auto;
+        width: 320px;
+        height: 80vh;
+        border: 2px solid rgb(0, 0, 0);
+        margin-right: 25px;
+
+        .cart-content {
+
+            .checkoutdiv {
+
+                p {
+                    font-size: 0.9rem;
+                }
+
+                .price-container {
+
+                    h6 {
+                        font-size: 0.9rem;
+                    }
+                }
+
+                button {
+
+                    a {
+                        padding: 7px 0;
+                    }
+                }
+            }
+
+            .shopping-products {
+                height: 52vh;
+                margin-top: 0;
+
+                .cart-products-container {
+                   
+                    .cart-proporties {
+                        width: 61%;
+
+                        .cart-product-name {
+                            font-size: 0.9rem;
+                        }
+
+                        .cart-product-price {
+                            font-size: 0.9rem;
+                        }
+
+                    }
+
+                    .cart-qty-cart-icon-container {
+                     width: 15%;
+
+                        .delete-div {
+                            padding: 5px 9px;
+                        }
+
+                        .cart-input {
+                        
+                            input {
+                                width: 100%;
+                                padding: 5px 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #productContainer.close-product-container {
+        display: flex;
+    }
+
+    .bag-icon {
+
+        .close-cart-icon {
+            display: block;
+        }
+
+        .close-ikon {
+            display: none;
+        }
+
+        .open-close-icon {
+            display: none;
+        }
+
+        .close-cart-qty {
+            display: block;
+
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .open-cart-container {
+        top: auto;
+        height: 70vh;
+
+        .cart-content {
+
+            .shopping-products {
+                height: 50vh;
+
+                .cart-products-container {
+
+                    .cart-qty-cart-icon-container {
+                     width: 15%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -6,10 +6,10 @@
 @use "_product-details";
 @use "footer";
 
-@use "./media-quereis/media-query-products";
-@use "./media-quereis/media-query-nav";
-@use "./media-quereis/mediaQuery-like-shopping-cart";
-@use "./media-quereis/media-query-footer";
+@use "./@media query/media-query-products";
+@use "./@media query/media-query-nav";
+@use "./@media query/cart-desktop";
+@use "./@media query/media-query-footer";
 
 
 *{
@@ -17,8 +17,11 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 12pt;
-    font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+   
 }
 
+body{
+    font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+}
 
  

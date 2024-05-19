@@ -1,8 +1,7 @@
 .main-header {
-    position: relative;
     height: 130px;
     background-color: rgb(241, 241, 241);
-
+    
     .company-name {
         width: 100%;
         display: flex;
@@ -29,21 +28,23 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
-            i {
-                font-size: 1.8rem;
-            }
-
+            
             .like-container {
                 padding-right: 20px;
             }
-
-            .cart,
-            .like-container {
+            
+            .bag-icon,
+            .heart-icon {
+                cursor: pointer;
+                width: 100%;
                 position: relative;
+                 
+                i {
+                    font-size: 1.8rem;
+                }
 
                 .qty-cart,
-                .qty-like {
+                .qty-like {                  
                     position: absolute;
                     top: 0;
                     right: 65%;
@@ -93,10 +94,8 @@
                         color: black;
                         font-size: 1.3rem;
                     }
-
                 }
             }
-
         }
 
         .open-nav {
@@ -106,28 +105,28 @@
         }
 
         .burgerMenu {
-            z-index: 1;
             width: auto;
             padding: 0 25px;
             transition: all 580ms linear;
-
+            
             .burger-icon {
                 display: block;
                 font-size: 2.8rem;
                 text-align: center;
             }
-
+            
             .close-burger-icon {
                 display: none;
-
+                
             }
-
+            
             .close-icon {
                 visibility: hidden;
                 position: absolute;
                 top: 0%;
                 left: -100%;
                 transition: all 580ms linear;
+                z-index: 1;
             }
 
             .open-close-icon {
@@ -139,3 +138,5 @@
         }
     }
 }
+
+

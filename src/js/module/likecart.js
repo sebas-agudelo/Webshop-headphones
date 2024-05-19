@@ -115,7 +115,7 @@ export const addToLikeCart = (likedProduct) => {
 
   export function allLikeListeners () {
     openLikeContainer ()
-    closeLikeContainer () 
+  
 };
 
   function likeContainer () {
@@ -132,15 +132,6 @@ export const addToLikeCart = (likedProduct) => {
     likeContainer ()
   });
 };
-
-//Close like container
-  function closeLikeContainer () {
-    document.querySelector(".like-heading-close-container").addEventListener("click", () => {
-
-    likeContainer ()
-  });
-};
-
 
 export function qtyLike () {
   const qtyProducts = document.querySelector(".qtylike");
