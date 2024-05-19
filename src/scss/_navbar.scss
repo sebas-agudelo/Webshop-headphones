@@ -25,16 +25,8 @@
 
         .cart-and-like-container {
             width: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            
-            .like-container {
-                padding-right: 20px;
-            }
-            
-            .bag-icon,
-            .heart-icon {
+          
+            .bag-icon{
                 cursor: pointer;
                 width: 100%;
                 position: relative;
@@ -43,8 +35,7 @@
                     font-size: 1.8rem;
                 }
 
-                .qty-cart,
-                .qty-like {                  
+                .qty-cart{                  
                     position: absolute;
                     top: 0;
                     right: 65%;
@@ -100,7 +91,7 @@
 
         .open-nav {
             visibility: visible;
-            width: 85%;
+            width: 100%;
             left: 0%;
         }
 
@@ -137,6 +128,8 @@
             }
         }
     }
+
 }
+
 
 

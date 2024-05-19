@@ -1,0 +1,21 @@
+@use "mixins" as S;
+
+.hero-img{
+    width: 100%;
+    img{
+        width: 100%;
+        height: 50vh;
+
+        @include S.desktopS{
+            height: 100vh;
+        }
+    }
+}
+
+.close-hero-img{
+    display: none;
+
+    @include S.desktopS{
+        display: block;
+    }
+}

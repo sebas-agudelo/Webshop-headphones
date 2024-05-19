@@ -1,6 +1,6 @@
-import { addToLikeCart, likeHtml, qtyLike } from "./likecart.js";
 import { addLikedProdToTheCart, qtycart, total } from "./cart.js";
 import { productDitails } from "./productditails.js";
+
 
 export function productsHtml(headphones) {
   
@@ -28,11 +28,7 @@ export function productsHtml(headphones) {
       const productLikeCartIconDiv = document.createElement("div");
       productLikeCartIconDiv.classList.add("product-icon-like-cart")
 
-      const productIconLike = document.createElement("i");
       const productIconCart = document.createElement("i");
-      
-      productIconLike.classList.add("bi-heart");
-      productIconLike.classList.add("heart");
 
       productIconCart.classList.add("bi-cart");
       productIconCart.classList.add("cart");
@@ -57,7 +53,6 @@ export function productsHtml(headphones) {
       productsProporties.appendChild(name);
       productsProporties.appendChild(functions);
       productsProporties.appendChild(price);
-      productLikeCartIconDiv.appendChild(productIconLike)
       productLikeCartIconDiv.appendChild(productIconCart)
 
       // theProductsDiv.appendChild(buyBtn)
@@ -68,13 +63,6 @@ export function productsHtml(headphones) {
       theProductsSection.appendChild(theProductsDiv);
       theProductsSection.appendChild(theProductsDiv);
       
-      productIconLike.addEventListener("click", () => {
-
-      addToLikeCart(allProducts)    
-      qtyLike(allProducts)  
-  
-      });
-
       productIconCart.addEventListener("click", () => {
         addLikedProdToTheCart(allProducts)
         qtycart(allProducts)

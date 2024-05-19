@@ -78,21 +78,30 @@
             display: block;
         }
 
-        .close-ikon {
-            display: none;
-        }
-
-        .open-close-icon {
-            display: none;
-        }
-
+        
+        
         .close-cart-qty {
             display: block;
-
+            
         }
+    }        
+        .close-ikon {
+            display: none;
+            z-index: 1;
+            position: absolute;
+            top: 0%;
+            right: 7%;
+            font-size: 2rem;
+            
+        }
+        
+        .open-close-ion {
+            display: none;
+        }
+        
     }
-}
 
+    
 @media screen and (min-width: 1400px) {
     .open-cart-container {
         top: auto;

@@ -1,23 +1,51 @@
-footer{
+@use "mixins" as S;
+
+.footer {
     background-color: rgb(241, 241, 241);
+    display: block;
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
     height: auto;
 
-    div{
+    @include S.desktopS{
+        justify-content: center;
+        height: 350px;
+    }
+
+    div {
         width: 45%;
         padding: 30px 15px;
-        
-        ul{
+
+        @include S.desktopS{
+            width: 33%;
+            padding: 30px 50px;
+        }
+
+        ul {
             list-style: none;
             margin: 0;
             padding: 0;
-                        
-            li{
+
+            li {
                 padding: 12px 0;
+
+                @include S.desktopS{
+                    cursor: pointer;
+                    transition: all 250ms linear;
+                }
             }
+            
         }
 
+    }
+
+}
+
+.close-footer {
+    display: none;
+
+    @include S.desktopS{
+        display: flex;
     }
 }

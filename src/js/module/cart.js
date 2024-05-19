@@ -129,26 +129,33 @@ function oppenShoppingCart () {
     const productContainer = document.getElementById("productContainer");
     const closeIcon = document.querySelector(".close-ikon") ;
     const cartQty = document.querySelector(".qty-cart");
+    const heroImg = document.querySelector(".hero-img");
+    const footer = document.querySelector(".footer");
 
     cart.addEventListener("click", () => {
       cartContainer.classList.toggle("open-cart-container")
       productContainer.classList.toggle("close-product-container");
-      closeIcon.classList.toggle("open-close-icon");
+      closeIcon.classList.toggle("open-close-ion");
       cart.classList.toggle("close-cart-icon");
       cartQty.classList.toggle("close-cart-qty");
+      heroImg.classList.toggle("close-hero-img");
+      footer.classList.toggle("close-footer");
+      console.log("hej");
     })
     
     closeIcon.addEventListener("click", () => {
       cart.classList.remove("close-cart-icon");
-      closeIcon.classList.remove("open-close-icon")
+      closeIcon.classList.remove("open-close-ion")
       cartContainer.classList.remove("open-cart-container")
       productContainer.classList.remove("close-product-container");
       cartQty.classList.remove("close-cart-qty");
+      heroImg.classList.remove("close-hero-img");
+      footer.classList.remove("close-footer");
     })
 
       cartContainer.addEventListener("mouseleave", () => {
       cart.classList.remove("close-cart-icon");
-      closeIcon.classList.remove("open-close-icon")
+      closeIcon.classList.remove("open-close-ion")
       cartContainer.classList.remove("open-cart-container")
       productContainer.classList.remove("close-product-container");
       cartQty.classList.remove("close-cart-qty");

@@ -2,15 +2,13 @@
 @use "navbar";
 @use "likecart";
 @use "cart";
-@use "startpage";
 @use "_product-details";
 @use "footer";
+@use "hero-img";
 
 @use "./@media query/media-query-products";
-@use "./@media query/media-query-nav";
+@use "./@media query/navbar-desktop";
 @use "./@media query/cart-desktop";
-@use "./@media query/media-query-footer";
-
 
 *{
     margin: 0;
