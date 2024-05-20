@@ -1,7 +1,7 @@
-export const shoppingCart = []
+let shoppingCart = [];
 
 export function addLikedProdToTheCart (addToCart) {
-  const cartArray = shoppingCart.find((addProduct) => addProduct === addToCart)
+  const cartArray = shoppingCart.find((addProduct) => addProduct.id === addToCart.id)
 
   if(cartArray){
 
@@ -13,6 +13,10 @@ export function addLikedProdToTheCart (addToCart) {
   }
   
   cartHtml()
+  total()
+
+ 
+
 } 
 
 const cartHtml = () => {
@@ -174,6 +178,7 @@ export function qtycart () {
 
   qtyCart.innerHTML = total + "";
   cartHtml()
+ 
 };
 
 export function total () {
@@ -185,10 +190,19 @@ export function total () {
     let qty = cost.quantity;
     total += much * qty;
   });
-
+  
   totalPrice.innerHTML = + " " + total + " kr";
+  
   cartHtml() 
+
+  localStorage.setItem("headphones", JSON.stringify(shoppingCart));
 };
 
 
 
+const theProducts = localStorage.getItem("headphones");
+if (theProducts) {
+  shoppingCart = JSON.parse(theProducts);
+  qtycart(); 
+  total(); 
+}

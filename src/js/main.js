@@ -3,7 +3,7 @@ import "./../scss/main.scss";
 import { burgerMenuFunction } from "./module/burbermenu.js";
 import { allCartListeners } from "./module/cart.js";
 import { fetchData } from "./fetch.js";
-
+// 
 
 window.onload = () => {
   if (location.pathname.includes("index.html")) {
@@ -20,6 +20,7 @@ window.onload = () => {
       heroImg.style.display = "none";
     }
   }
+
 }
 
 
