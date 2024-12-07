@@ -1,12 +1,12 @@
 {
     "routes": [
       {
-        "src": "index.html",
-        "dest": "index.html"
+        "src": "/",
+        "dest": "/index.html"
       },
       {
-        "src": "products.html",
-        "dest": "products.html"
+        "src": "/products.html",
+        "dest": "/products.html"
       }
     ]
   }
