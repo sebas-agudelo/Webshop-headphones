@@ -114,7 +114,7 @@ const cartHtml = () => {
 
 
       cartHtml();
-      qtycart(); 
+      qtycart();  
       total(); 
     });
     
