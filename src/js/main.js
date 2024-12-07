@@ -1,4 +1,4 @@
-import "./../scss/main.scss";
+import "../scss/main.scss";
 
 import { burgerMenuFunction } from "./module/burbermenu.js";
 import { allCartListeners } from "./module/cart.js";
