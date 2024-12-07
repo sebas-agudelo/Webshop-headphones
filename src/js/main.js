@@ -3,7 +3,7 @@ import "./../scss/main.scss";
 import { burgerMenuFunction } from "./module/burbermenu.js";
 import { allCartListeners } from "./module/cart.js";
 import { fetchData } from "./fetch.js";
-// import {products} from "./module/products.js"
+
 
 
 window.onload = () => {
@@ -25,7 +25,7 @@ window.onload = () => {
   }
 
 }
-// products()
+
 
 
 //Open and close meny
