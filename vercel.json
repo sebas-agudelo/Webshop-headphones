@@ -1,12 +1,13 @@
 {
-    "routes": [
+    "version": 2,
+    "builds": [
       {
-        "src": "/",
-        "dest": "/index.html"
+        "src": "index.html",
+        "use": "@vercel/static"
       },
       {
-        "src": "/products",
-        "dest": "/products.html"
+        "src": "products.html",
+        "use": "@vercel/static"
       }
     ]
   }
