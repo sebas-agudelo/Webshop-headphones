@@ -1,5 +1,5 @@
-import { addLikedProdToTheCart, qtycart, total} from "./cart.js";
-import { productDitails } from "./productditails.js";
+import { addLikedProdToTheCart, qtycart, total} from "../js/module/cart.js";
+import { productDitails } from "../js/module/productditails.js";
 
 export function productsHtml(headphones) {
 

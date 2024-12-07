@@ -1,5 +1,5 @@
 
-import {productsHtml} from "./module/products";
+import {productsHtml} from "./products";
 
 export const fetchData = () => {
   fetch("products.json")
