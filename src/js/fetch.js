@@ -2,7 +2,7 @@
 import {productsHtml} from "./module/products";
 
 export const fetchData = () => {
-  fetch("src/js/json/products.json")
+  fetch("/json/products.json")
     .then((response) => response.json())
     .then((headphones) => {
       productsHtml(headphones)
