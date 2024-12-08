@@ -23,16 +23,16 @@ window.onload = () => {
       heroImg.style.display = "none";
     }
   }
-
+  
+  
+  //Open and close meny
+  burgerMenuFunction()
+  
+  //All listeners from cart js
+  allCartListeners()
 }
 
 
-
-//Open and close meny
-burgerMenuFunction()
-
-//All listeners from cart js
-allCartListeners()
 
 
 
