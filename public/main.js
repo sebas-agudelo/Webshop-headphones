@@ -1,8 +1,8 @@
-import "../scss/main.scss";
+import "../src/scss/main.scss";
 
-import { burgerMenuFunction } from "./module/burbermenu.js";
-import { allCartListeners } from "./module/cart.js";
-import { fetchData } from "./fetch.js";
+import { burgerMenuFunction } from "../src/js/module/burbermenu.js";
+import { allCartListeners } from "../src/js/module/cart.js";
+import { fetchData } from "../src/js/fetch.js";
 
 
 
