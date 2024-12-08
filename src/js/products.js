@@ -1,28 +1,28 @@
 import { addLikedProdToTheCart, qtycart, total} from "../js/module/cart.js";
 import { productDitails } from "../js/module/productditails.js";
-import { fetchData } from "./fetch.js";
-import { burgerMenuFunction } from "./module/burbermenu.js";
-import { allCartListeners } from "./module/cart.js";
-import "../scss/main.scss"
+// import { fetchData } from "./fetch.js";
+// import { burgerMenuFunction } from "./module/burbermenu.js";
+// import { allCartListeners } from "./module/cart.js";
+// import "../scss/main.scss"
 
 
-window.onload = () => {
+// window.onload = () => {
 
-if (location.pathname.includes("products.html")) {
-  console.log("Fetching data for products page");
-  fetchData();
-  const heroImg = document.querySelector(".hero-img");
-  if (heroImg) {
-    heroImg.style.display = "none";
-  }
-}
+// if (location.pathname.includes("products.html")) {
+//   console.log("Fetching data for products page");
+//   fetchData();
+//   const heroImg = document.querySelector(".hero-img");
+//   if (heroImg) {
+//     heroImg.style.display = "none";
+//   }
+// }
 
-//Open and close meny
-burgerMenuFunction()
+// //Open and close meny
+// burgerMenuFunction()
 
-//All listeners from cart js
-allCartListeners()
-}
+// //All listeners from cart js
+// allCartListeners()
+// }
 
 
 
