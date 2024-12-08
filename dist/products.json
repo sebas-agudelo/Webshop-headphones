@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1001,
+        "quantity": 1,
+        "name": "AKG K92",
+        "imageUrl": "src/assets/AKG K92.jpg",
+        "functions": "Stora 40mm drivers. 16 Hz - 20 kHz frekvensomfång. Självjusterande hjässband för skön passform. On ear-sluten design. 1/4 till 1/8 teleplugg till minijack (6.35 - 3.5 mm) skruvadapter medföljer",
+        "description": "Professionella drivers K92 Slutna Hörlurar har 40mm drivers för att producera en detaljerad output med utvidgat frekvensomfång för att exakt återge varje nyans av din musik. K92 har också en lågohmig design för kompatibilitet med en rad olika uppspelningsenheter som professionella studioredskap och bärbara musikspelare. Designad med både funktionalitet och mångsidighet i sinne använde AKG ingenjörer sin omfattande expertis för att optimera varje enskild komponent - för att leverera en bra uppsättning hörlurar utan kompromisser. Sluten hörlursdesign Ovasett om du övar eller trackar, behöver du kunna koncentrera och prestera ditt bästa. K92 hörlurarnas slutna design eliminerar ljudläckage och ger bara ljud till dina öron. Denna exceptionella ljudisolering är på grund av en ny akustisk kammare, som sitter mellan öronkopp och gångjärnet som ansluter till huvudbandet. Denna innovativa design ger dig friheten att röra huvudet i varje riktning, utan att låta ljudet slippa in eller ut. Med K92, kan du njuta av en privat arbetsyta, oavsett var du väljer att skapa. Robust och tålig byggkvalitet AKG är känd för att göra professionella redskap som kan hålla mycket länge och K92 hörlurarna är inget undantag. AKG har prövat den genom extrema tester och stryk för att säkerställa de kan hantera allt du gör med dem: den kraftfulla prövningen i falltest simulerar överdrivna fall. 80.000 kabelböj cykler vid båda slutpunkterna säkerställer att kabeln inte kommer bryta eller försämras. Och intensiv driverprövning - en långvarig serie 3W salvor var och en en halv sekund - innebär att driverna inte misslyckas när du verkligen behöver dem. Eftersom örondynor är ofta de första komponenterna att påvisa slitage, har AKG utformat K92 hörlurarna med utbytbara dynor för att skydda din investering över tiden. Med exceptionell prestanda och elegant design för att matcha, byggs K92 för proffs.",
+        "price": 899
+    },
+    
+    {
+        "id": 1002,
+        "quantity": 1,
+        "name": "AKG K52",
+        "imageUrl": "src/assets/AKG K52.jpg",
+        "functions": "Stora 40mm drivrutiner. 18 Hz – 20 kHz frekvensomfång. Självjusterande huvudband för skön passform. Över-örat, Sluten design. 1/4 tums skruv-adapter medföljer.",
+        "description": "Professionella drivers K92 Slutna Hörlurar har 40mm drivers för att producera en detaljerad output med utvidgat frekvensomfång för att exakt återge varje nyans av din musik. K92 har också en lågohmig design för kompatibilitet med en rad olika uppspelningsenheter som professionella studioredskap och bärbara musikspelare. Designad med både funktionalitet och mångsidighet i sinne använde AKG ingenjörer sin omfattande expertis för att optimera varje enskild komponent - för att leverera en bra uppsättning hörlurar utan kompromisser. Sluten hörlursdesign Ovasett om du övar eller trackar, behöver du kunna koncentrera och prestera ditt bästa. K92 hörlurarnas slutna design eliminerar ljudläckage och ger bara ljud till dina öron. Denna exceptionella ljudisolering är på grund av en ny akustisk kammare, som sitter mellan öronkopp och gångjärnet som ansluter till huvudbandet. Denna innovativa design ger dig friheten att röra huvudet i varje riktning, utan att låta ljudet slippa in eller ut. Med K92, kan du njuta av en privat arbetsyta, oavsett var du väljer att skapa. Robust och tålig byggkvalitet AKG är känd för att göra professionella redskap som kan hålla mycket länge och K92 hörlurarna är inget undantag. AKG har prövat den genom extrema tester och stryk för att säkerställa de kan hantera allt du gör med dem: den kraftfulla prövningen i falltest simulerar överdrivna fall. 80.000 kabelböj cykler vid båda slutpunkterna säkerställer att kabeln inte kommer bryta eller försämras. Och intensiv driverprövning - en långvarig serie 3W salvor var och en en halv sekund - innebär att driverna inte misslyckas när du verkligen behöver dem. Eftersom örondynor är ofta de första komponenterna att påvisa slitage, har AKG utformat K92 hörlurarna med utbytbara dynor för att skydda din investering över tiden. Med exceptionell prestanda och elegant design för att matcha, byggs K92 för proffs.",
+        "price": 450
+    },
+
+    {
+        "id": 1003,
+        "quantity": 1,
+        "name": "AKG K702",
+        "imageUrl": "src/assets/AKG K702.jpg",
+        "functions": "Referens-grad ljud med fenomenal klarhet och precision för studio- och hemmabruk. Öppna öronkåpor ger otroliga bredd och en luftig, rymlig ljudbild. Ultra-bekväma icke-tröttande design med speciellt-formade 3D-Form öronkuddar. Varimotion twin-lagers membran kombinerat med revolutionerande platt-wire talspolar.Välbalanserad och trogen din ljudkälla - ett gå till val för proffs",
+        "description": "AKG K702 är en öppen hörlur som lämpar sig perfekt som referenslur i studion. AKG K802 ger ett extremt tydligt och ärligt ljud och är skön att ha på sig även under långa mixningspass. Hörluren tar tillvara på AKGs Varimotion two-layer diaphragm som försäkrar exakt högfrekvent återgivning och en detaljrik low end.",
+        "price": 2486
+    },
+
+    {
+        "id": 1004,
+        "quantity": 1,
+        "name": "AKG K 240 Studio",
+        "imageUrl": "src/assets/AKG K 240 Studio.jpg",
+        "functions": "Exceptionell komfort och överlägsen ljud - en tidlös design för kritiskt lyssnande. 30 mm XXL transduktor med patenterade Varimotion-membran för otroligt ljudfidelitet. Halvöppna circumaural öronhalsar ger ett kraftfullt låga slut med skarpa, tydliga höjder. Självjusterande huvudband och mjuka polstret pads för exceptionell komfort. Högpresterande design med robust konstruktion för långsiktig pålitlighet",
+        "description": "AKG K 240 Studio Halvöppen allroundlur med riktgt bra ljud och passform 1 betyg K 240 Studio Studio versionen av dessa klassiska hörlurar har hög känslighet, ett brett dynamiskt omfång och hög ljudnivå. AKG K 240 Studio låter lika bra som den är skön att ha på sig vilket gör hörluren till en riktigt bra och pålitlig referenslur även i de mest krävande lyssningsapplikationerna. Kopplas även till portabla enheter som CD spelare, DAT spelare, laptops etc.",
+        "price": 997
+    },
+
+    {
+        "id": 1005,
+        "quantity": 1,
+        "name": "PIONEER HRM-7",
+        "imageUrl": "src/assets/PIONEER HRM-7.jpg",
+        "functions": "40mm HD Neodymium driver. 5-40.000 Hz frekvensområde. Justerbar bygel och öronkuddar. Memory foam öronkuddar med velour-omslag. Inkluderar ytterligare kabel, extra öronskydd och jack-adapter",
+        "description": "Pioneer HRM-7 Hörlurar är ett helt nytt tillägg till Pioneers prestigefyllda hörlursutbud som tillgodoser direkt studio-referenser och monitor med deras 40 mm HD-drivrutiner och fantastiska slutna design. Utformade med producenter i åtanke, har HRM-7 Hörlurar ett brett frekvensomfång på 5-40.000 Hz och har även ett fullt justerbart huvudband och Memory Foam öronkuddar för att säkerställa maximal bekvämlighet under utökad användning.",
+        "price": 2519
+    },
+
+    {
+        "id": 1006,
+        "quantity": 1,
+        "name": "PIONEER DJ HDJ-X5BT",
+        "imageUrl": "src/assets/PIONEER DJ HDJ-X5BT.jpg",
+        "functions": "Integrerad Bluetooth 4.2 trådlös anslutning. Välbalanserad, dynamiskt ljud. Vridbar mekanism och vikbar design. Inbyggd mikrofon för handsfree-samtal med telefon",
+        "description": "Specialdesignad för DJ:er med senast Bluetooth teknik. Pioneer HDJ-X5BT Bluetooth DJ-hörlurar, Vita har utformats med DJ:ar i åtanke, med en vikbar ram och välbalanserad, fylligt ljud. Utnyttja senaste Bluetooth teknik (version 4.2), HDJ-X5BT hörlurar ger enastående ljudåtergivning, befria dig från begränsningar av kablar. Den vikbara designen gör det lättburen och hörlurarna har hög komfort öronkuddar. Hörlurarna har även en inbyggd mikrofon, vilket gör dem idealiska för personligt bruk på den flytta samt DJ. Hörlurarna är också mycket hållbara, noggrant testade med hjälp av amerikanska militärens standard MIL-STD - 810G chock-testet för att säkerställa en lång livslängd. Dessutom levereras de slutföra en 1,2 m lindad kabel för nattklubb och DJ-användning.",
+        "price": 1985
+    },
+
+    {
+        "id": 1007,
+        "quantity": 1,
+        "name": "AUDIO TECHNICA ATH-M20x",
+        "imageUrl": "src/assets/AUDIO TECHNICA ATH-M20x.jpg",
+        "functions": "Mångsidig - perfekt för mixning, mastring och tracking. 40mm drivers med neodymmagneter. Kopparpläterade aluminiumstalspolar. Utmärkt ljudisolering och bekvämlighet",
+        "description": "ATH-M20x hörlurarna av Audio Technica är en bra introduktion till M-Series-linjen som prisats av kritiker. En modern design kombineras med kvalitativa material för att erbjuda en bekväm lyssnarupplevelse och effektiv isolering. Dessa hörlurar är ett utmärkt val för spårning och mixning.",
+        "price": 666
+    },
+
+    {
+        "id": 1008,
+        "quantity": 1,
+        "name": "SENNHEISER HD 400 PRO",
+        "imageUrl": "src/assets/SENNHEISER HD 400 PRO.jpg",
+        "functions": "Perfekt för hem och studior. Lätt, bärbar design för en bekväm passform som du kan lyssna på hela dagen. Inkluderar ditt val av lindade eller raka kablar för frihet medan du lyssnar. Vinklad givardesign säkerställer ett rent, distorsionsfritt ljud vid vilken volym som helst. Fantastisk stereobild som skiljer instrument åt med distinktion",
+        "description": "När du jobbar hemma eller i studion måste din mix låta som den gör när lyssnarna hör den. HD 400 PRO öppna studiohörlurar ger en naturlig och exakt ljudupplevelse för finjustering av ditt signaturljud. Hörlurarnas låga vikt och öronkuddar med sammet gör användningen bekväm under långa sessioner. Öppna öronkåpor och vinklade menbran ger dessutom en bred och transparent ljudscen som gör HD 400 PRO till en pålitlig kompanjon för de som sätter kvalitet och precision först.",
+        "price": 2588
+    },
+
+    {
+        "id": 1009,
+        "quantity": 1,
+        "name": "SHURE SRH240A",
+        "imageUrl": "src/assets/SHURE SRH240A.jpg",
+        "functions": "Djup, rik bas-respons och detaljerad diskant. Perfekt för professionella applikationer och vardagligt lyssnande. Slutna circumaural hörlurar med 40 mm drivrutiner. Ergonomisk och bekväm passform. Guldpläterat 3,5 mm stereo telejack och 200 cm löstagbar kabel",
+        "description": "Shure SRH240A Professionella Hörlurar ger utmärkt ljudåtergivning tack vare 40 mm neodymium dynamisk driver. Optimerade för både allmänt lyssnande och yrkesmässiga applikationer, återger SRH240A hörlurarna djup bas med kristallklart mellanregister och diskant. Hörlurarnas slutna, circumaural design gör så att SRH240A vilar bekvämt över öronen och minska bakgrundsljud medan den legendariska Shure-kvaliteten tål tuffa förhållanden i dagligt bruk.",
+        "price": 695
+    }
+]
