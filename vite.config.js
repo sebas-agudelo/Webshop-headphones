@@ -1,8 +1,12 @@
-// vite.config.js
-export default {
-  base: '/', // Om du deployar till rotmappen av din domän
+import { defineConfig } from 'vite';
+
+export default defineConfig({
   build: {
-    outDir: 'dist', // Standardbyggkatalog för Vite
-    
-  },
-}
+    rollupOptions: {
+      input: {
+        index: './index.html',
+        products: './products.html',
+      }
+    }
+  }
+});
